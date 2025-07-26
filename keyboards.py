@@ -2,9 +2,9 @@ from telebot import types
 
 def general_languange():
     keyboars = types.InlineKeyboardMarkup()
-    uzbek = types.InlineKeyboardButton(text="uz", callback_data="uz")
-    rus = types.InlineKeyboardButton(text="ru", callback_data="ru")
-    ingiliz = types.InlineKeyboardButton(text="en", callback_data="en")
+    uzbek = types.InlineKeyboardButton(text="yes")
+    rus = types.InlineKeyboardButton()
+    ingiliz = types.InlineKeyboardButton()
     keyboars.row(uzbek, rus, ingiliz)
     return keyboars
 
